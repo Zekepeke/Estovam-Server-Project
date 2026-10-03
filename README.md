@@ -1,8 +1,8 @@
-# Reachy Server Project
+# Estovam Server Project
 
 A lightweight FastAPI + Uvicorn backend that streams live video from the Raspberry Pi 5 camera using the **Picamera2** and **libcamera** stack.  
-Built to support my DIY Reachy Mini–style project with MediaPipe/OpenCV gesture recognition and future LLM/TTS integration. Works with the frontend:
-https://github.com/Zekepeke/ReachyCloneWebApp
+Built to support my DIY Estovam Mini–style project with MediaPipe/OpenCV gesture recognition and future LLM/TTS integration. Works with the frontend:
+https://github.com/Zekepeke/EstovamCloneWebApp
 
 ---
 
@@ -37,8 +37,8 @@ See [`requirements.txt`](requirements.txt) for exact versions.
 
 ```bash
 # Clone the repo
-git clone https://github.com/Zekepeke/Reachy-Server-Project.git
-cd Reachy-Server-Project
+git clone https://github.com/Zekepeke/Estovam-Server-Project.git
+cd Estovam-Server-Project
 
 # Create a venv (put it on your big drive if your SD is small)
 python3 -m venv .venv --system-site-packages
@@ -68,7 +68,7 @@ Open your browser at:
 
 ## Project Structure
 ```
-Reachy-Server-Project/
+Estovam-Server-Project/
 ├── server/
 │   ├── app.py                    # FastAPI entrypoint
 │   ├── pipeline.py               # Hand landmark / gesture processing
